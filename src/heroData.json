@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Morphling",
+      "attribute": "agility",
+      "tags": ["Carry"],
+      "image": "Morphling.png"
+    },
+    {
+      "name": "Winter Wyvern",
+      "attribute": "universal",
+      "tags": ["Support", "Control", "Healer"],
+      "image": "Winter Wyvern.png"
+    },
+    {
+        "name": "Rubick",
+        "attribute": "intelligence",
+        "tags": ["Support", "Nuker"],
+        "image": "Rubick.png"
+    },
+    {
+        "name": "Dragon Knight",
+        "attribute": "Strenght",
+        "tags": ["Tank"],
+        "image": "Dragon Knight.png"
+    },
+    {
+      "name": "Oracle",
+      "attribute": "intelligence",
+      "tags": ["Support", "Healer"],
+      "image": "Oracle.png"
+  },
+  {
+    "name": "Bloodseeker",
+    "attribute": "agility",
+    "tags": ["Carry"],
+    "image": "Bloodseeker.png"
+},
+{
+  "name": "Witch Doctor",
+  "attribute": "intelligence",
+  "tags": ["Support", "Healer"],
+  "image": "Witch Doctor.png"
+},
+{
+  "name": "Void Spirit",
+  "attribute": "universal",
+  "tags": ["Carry", "Nuker"],
+  "image": "Void Spirit.png"
+}
+  ]
