@@ -14,6 +14,11 @@ const HeroPortrait = styled.div`
   &:active {
     background-color: #0036b3;
   }
+
+  @media (max-width: 600px) {
+    height: 50px;
+    width: 100px;
+  }
  
   ${(props) =>
     (props.searchTerm &&

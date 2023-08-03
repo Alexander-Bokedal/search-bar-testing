@@ -12,7 +12,7 @@ const MainContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
- 
+  padding: 20px;
 `;
 const FilterGrid = styled.div`
 display: grid;
@@ -21,6 +21,10 @@ grid-template-columns: repeat(5, 1fr);
 align-items: center;
 justify-content: center;
 gap: 10px;
+
+@media (max-width: 600px) {
+  grid-template-columns: repeat(3, 1fr);
+}
 `
 
 const HeroGrid = styled.div`
@@ -32,6 +36,11 @@ const HeroGrid = styled.div`
   align-items: center;
   border: 1px solid black; 
  padding: 25px;
+
+ @media (max-width: 600px) {
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+}
  
   
 `;
