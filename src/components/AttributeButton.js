@@ -13,13 +13,13 @@ const FilterButtonStyled = styled.button`
 `;
 
 function AttributeButton (props) {
-    const {activeFilter, handleFilterClick, attribute, name} = props;
+    const {attributeFilter, handleAttributeClick, attribute, name} = props;
     
     return(
 
 <FilterButtonStyled
-active={activeFilter === attribute}
-onClick={() => handleFilterClick(attribute)} 
+active={attributeFilter === attribute}
+onClick={() => handleAttributeClick(attribute)} 
 >
 {name}
 </FilterButtonStyled>

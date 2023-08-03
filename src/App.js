@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import heroData from './heroData.json'
 import { importAllImages } from './imageLoader';
 import FilterButtons from './components/FilterButtons'
+import AttributeButton from './components/AttributeButton';
 
 const MainContainer = styled.div`
   display: flex;
@@ -70,6 +71,7 @@ const FilterButton = styled.button`
 function App() {
    const [searchTerm, setSearchTerm] = useState('');
    const [activeFilter, setActiveFilter] = useState(null);
+   const [attributeFilter, setAttributeFilter] = useState(null);
    const images = importAllImages(require.context('./Assets', false, /\.(png|jpe?g|svg)$/));
 
    const handleSearchChange = (event) => {
@@ -79,6 +81,9 @@ function App() {
    const handleFilterClick = (filter) => {
     setActiveFilter(filter);
    }
+   const handleAttributeClick = (filter) => {
+    setAttributeFilter(filter);
+   }
 
   return (
     <MainContainer>
@@ -86,30 +91,30 @@ function App() {
        <SearchInput value={searchTerm} onChange={handleSearchChange} />
        <div>Attribute</div>
        <FilterGrid>
-       <FilterButtons name={'All'} tag={null}
-        handleFilterClick={handleFilterClick} 
-        setActiveFilter={setActiveFilter} 
-        activeFilter={activeFilter}/> 
+       <AttributeButton name={'All'} attribute={null}
+        handleAttributeClick={handleAttributeClick} 
+        setAttributeFilter={setAttributeFilter} 
+        attributeFilter={attributeFilter}/> 
 
-        <FilterButtons name={'Strength'} attribute={"strength"}
-        handleFilterClick={handleFilterClick} 
-        setActiveFilter={setActiveFilter} 
-        activeFilter={activeFilter}/> 
+        <AttributeButton name={'Strength'} attribute={"Strength"}
+        handleAttributeClick={handleAttributeClick} 
+        setAttributeFilter={setAttributeFilter} 
+        attributeFilter={attributeFilter}/> 
 
-        <FilterButtons name={'Agility'} attribute={"agility"}
-        handleFilterClick={handleFilterClick} 
-        setActiveFilter={setActiveFilter} 
-        activeFilter={activeFilter}/> 
+        <AttributeButton name={'Agility'} attribute={"Agility"}
+        handleAttributeClick={handleAttributeClick} 
+        setAttributeFilter={setAttributeFilter} 
+        attributeFilter={attributeFilter}/>  
 
-        <FilterButtons name={'Int'} attribute={"intelligence"}
-        handleFilterClick={handleFilterClick} 
-        setActiveFilter={setActiveFilter} 
-        activeFilter={activeFilter}/> 
-        
-         <FilterButtons name={'Universal'} attribute={"universal"}
-        handleFilterClick={handleFilterClick} 
-        setActiveFilter={setActiveFilter} 
-        activeFilter={activeFilter}/> 
+        <AttributeButton name={'Int'} attribute={"Intelligence"}
+        handleAttributeClick={handleAttributeClick} 
+        setAttributeFilter={setAttributeFilter} 
+        attributeFilter={attributeFilter}/> 
+
+        <AttributeButton name={'Univsersal'} attribute={"Universal"}
+        handleAttributeClick={handleAttributeClick} 
+        setAttributeFilter={setAttributeFilter} 
+        attributeFilter={attributeFilter}/> 
         </FilterGrid>
        
        <div>Role</div>
@@ -161,6 +166,7 @@ function App() {
             tags={heroData.tags}
             searchTerm={searchTerm}
             activeFilter={activeFilter}
+            attributeFilter={attributeFilter}
             image={images[heroData.image]}
           />
         ))}

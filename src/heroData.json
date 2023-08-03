@@ -1,97 +1,97 @@
 [
   {
     "name": "Morphling",
-    "attribute": "agility",
+    "attribute": "Agility",
     "tags": ["Carry"],
     "image": "Morphling.png"
   },
   {
     "name": "Winter Wyvern",
-    "attribute": "universal",
+    "attribute": "Universal",
     "tags": ["Support", "Disabler", "Healer"],
     "image": ""
   },
   {
     "name": "Rubick",
-    "attribute": "intelligence",
+    "attribute": "Intelligence",
     "tags": ["Support", "Nuker"],
     "image": "Rubick.png"
   },
   {
     "name": "Dragon Knight",
-    "attribute": "strength",
+    "attribute": "Strength",
     "tags": ["Tank"],
     "image": "Dragon Knight.png"
   },
   {
     "name": "Oracle",
-    "attribute": "intelligence",
+    "attribute": "Intelligence",
     "tags": ["Support", "Healer"],
     "image": "Oracle.png"
   },
   {
     "name": "Bloodseeker",
-    "attribute": "agility",
+    "attribute": "Agility",
     "tags": ["Carry"],
     "image": "Bloodseeker.png"
   },
   {
     "name": "Witch Doctor",
-    "attribute": "intelligence",
+    "attribute": "Intelligence",
     "tags": ["Support", "Healer"],
     "image": "Witch Doctor.png"
   },
   {
     "name": "Void Spirit",
-    "attribute": "universal",
+    "attribute": "Universal",
     "tags": ["Nuker", "Support"],
     "image": "Void Spirit.png"
   },
   {
     "name": "Lina",
-    "attribute": "intelligence",
+    "attribute": "Intelligence",
     "tags": ["Nuker", "Support"],
     "image": "Morphling.png"
   },
   {
     "name": "Juggernaut",
-    "attribute": "agility",
+    "attribute": "Agility",
     "tags": ["Carry"],
     "image": "Morphling.png"
   },
   {
     "name": "Earthshaker",
-    "attribute": "strength",
+    "attribute": "Strength",
     "tags": ["Support", "Initiator", "Disabler"],
     "image": "Morphling.png"
   },
   {
     "name": "Sven",
-    "attribute": "strength",
+    "attribute": "Strength",
     "tags": ["Carry", "Disabler"],
     "image": "Morphling.png"
   },
   {
     "name": "Storm Spirit",
-    "attribute": "intelligence",
+    "attribute": "Intelligence",
     "tags": ["Nuker", "Escape"],
     "image": "Morphling.png"
   },
   {
     "name": "Riki",
-    "attribute": "agility",
+    "attribute": "Agility",
     "tags": ["Carry", "Escape"],
     "image": "Morphling.png"
   },
   {
     "name": "Ogre Magi",
-    "attribute": "strength",
+    "attribute": "Strength",
     "tags": ["Support", "Disabler", "Tank"],
     "image": "Morphling.png"
   },
   {
     "name": "Legion Commander",
-    "attribute": "strength",
+    "attribute": "Strength",
     "tags": ["Carry", "Disabler", "Tank"],
     "image": "Morphling.png"
   }
