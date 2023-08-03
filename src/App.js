@@ -24,15 +24,13 @@ gap: 10px;
 
 const HeroGrid = styled.div`
   width: 700px;
-  height: 300px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   justify-content: center;
   align-items: center;
   border: 1px solid black; 
-  padding-left: 50px;
-  padding-right: 30px;
+ padding: 25px;
  
   
 `;
@@ -98,15 +96,16 @@ function App() {
         setActiveFilter={setActiveFilter} 
         activeFilter={activeFilter}/> 
 
-<FilterButtons name={'Agility'} attribute={"agility"}
+        <FilterButtons name={'Agility'} attribute={"agility"}
         handleFilterClick={handleFilterClick} 
         setActiveFilter={setActiveFilter} 
         activeFilter={activeFilter}/> 
 
-<FilterButtons name={'Int'} attribute={"intelligence"}
+        <FilterButtons name={'Int'} attribute={"intelligence"}
         handleFilterClick={handleFilterClick} 
         setActiveFilter={setActiveFilter} 
         activeFilter={activeFilter}/> 
+        
          <FilterButtons name={'Universal'} attribute={"universal"}
         handleFilterClick={handleFilterClick} 
         setActiveFilter={setActiveFilter} 
@@ -146,7 +145,7 @@ function App() {
         setActiveFilter={setActiveFilter} 
         activeFilter={activeFilter}/>
 
-        <FilterButtons name={'Control'} tag={'Control'}
+        <FilterButtons name={'Disabler'} tag={'Disabler'}
         handleFilterClick={handleFilterClick} 
         setActiveFilter={setActiveFilter} 
         activeFilter={activeFilter}/>

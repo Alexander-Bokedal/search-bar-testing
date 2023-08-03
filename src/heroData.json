@@ -1,50 +1,98 @@
 [
-    {
-      "name": "Morphling",
-      "attribute": "agility",
-      "tags": ["Carry"],
-      "image": "Morphling.png"
-    },
-    {
-      "name": "Winter Wyvern",
-      "attribute": "universal",
-      "tags": ["Support", "Control", "Healer"],
-      "image": "Winter Wyvern.png"
-    },
-    {
-        "name": "Rubick",
-        "attribute": "intelligence",
-        "tags": ["Support", "Nuker"],
-        "image": "Rubick.png"
-    },
-    {
-        "name": "Dragon Knight",
-        "attribute": "Strenght",
-        "tags": ["Tank"],
-        "image": "Dragon Knight.png"
-    },
-    {
-      "name": "Oracle",
-      "attribute": "intelligence",
-      "tags": ["Support", "Healer"],
-      "image": "Oracle.png"
+  {
+    "name": "Morphling",
+    "attribute": "agility",
+    "tags": ["Carry"],
+    "image": "Morphling.png"
+  },
+  {
+    "name": "Winter Wyvern",
+    "attribute": "universal",
+    "tags": ["Support", "Disabler", "Healer"],
+    "image": ""
+  },
+  {
+    "name": "Rubick",
+    "attribute": "intelligence",
+    "tags": ["Support", "Nuker"],
+    "image": "Rubick.png"
+  },
+  {
+    "name": "Dragon Knight",
+    "attribute": "strength",
+    "tags": ["Tank"],
+    "image": "Dragon Knight.png"
+  },
+  {
+    "name": "Oracle",
+    "attribute": "intelligence",
+    "tags": ["Support", "Healer"],
+    "image": "Oracle.png"
   },
   {
     "name": "Bloodseeker",
     "attribute": "agility",
     "tags": ["Carry"],
     "image": "Bloodseeker.png"
-},
-{
-  "name": "Witch Doctor",
-  "attribute": "intelligence",
-  "tags": ["Support", "Healer"],
-  "image": "Witch Doctor.png"
-},
-{
-  "name": "Void Spirit",
-  "attribute": "universal",
-  "tags": ["Carry", "Nuker"],
-  "image": "Void Spirit.png"
-}
-  ]
+  },
+  {
+    "name": "Witch Doctor",
+    "attribute": "intelligence",
+    "tags": ["Support", "Healer"],
+    "image": "Witch Doctor.png"
+  },
+  {
+    "name": "Void Spirit",
+    "attribute": "universal",
+    "tags": ["Nuker", "Support"],
+    "image": "Void Spirit.png"
+  },
+  {
+    "name": "Lina",
+    "attribute": "intelligence",
+    "tags": ["Nuker", "Support"],
+    "image": "Morphling.png"
+  },
+  {
+    "name": "Juggernaut",
+    "attribute": "agility",
+    "tags": ["Carry"],
+    "image": "Morphling.png"
+  },
+  {
+    "name": "Earthshaker",
+    "attribute": "strength",
+    "tags": ["Support", "Initiator", "Disabler"],
+    "image": "Morphling.png"
+  },
+  {
+    "name": "Sven",
+    "attribute": "strength",
+    "tags": ["Carry", "Disabler"],
+    "image": "Morphling.png"
+  },
+  {
+    "name": "Storm Spirit",
+    "attribute": "intelligence",
+    "tags": ["Nuker", "Escape"],
+    "image": "Morphling.png"
+  },
+  {
+    "name": "Riki",
+    "attribute": "agility",
+    "tags": ["Carry", "Escape"],
+    "image": "Morphling.png"
+  },
+  {
+    "name": "Ogre Magi",
+    "attribute": "strength",
+    "tags": ["Support", "Disabler", "Tank"],
+    "image": "Morphling.png"
+  },
+  {
+    "name": "Legion Commander",
+    "attribute": "strength",
+    "tags": ["Carry", "Disabler", "Tank"],
+    "image": "Morphling.png"
+  }
+]
